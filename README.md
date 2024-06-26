@@ -164,3 +164,6 @@ on employee.Branch_no = Branch.Branch_no;
 -- 12. Display the names of customers who have issued books with a rental price higher than Rs.7.
 SELECT Issued_cust_id FROM issuestatus INNER JOIN books ON 
 ISBN=Isbn_book where books.Rental_Price> 7;
+
+
+
